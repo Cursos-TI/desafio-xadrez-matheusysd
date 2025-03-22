@@ -32,6 +32,18 @@ int main() {
         casasRainha++;
     } while (casasRainha < RAINHA_CASAS);
 
+    // Movimento do Cavalo (usando loops aninhados) - movimento em L
+    // Primeiro move duas casas para baixo, depois uma para esquerda
+    printf("\nMovimento do Cavalo:\n");
+    for (int vertical = 0; vertical < 2; vertical++) {
+        printf("Baixo\n");
+    }
+    int horizontal = 0;
+    while (horizontal < 1) {
+        printf("Esquerda\n");
+        horizontal++;
+    }
+
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
